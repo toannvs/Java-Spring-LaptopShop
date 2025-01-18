@@ -18,7 +18,7 @@ This project is a **Spring Framework-based application** designed to Laptop Shop
 - **Spring Data JPA**: For database interactions
 - **Spring Security**: For authentication and authorization
 - **Maven**: Build tool
-- **MySQL**: Database (specify your DB here)
+- **Database**: MySQL
 - **Docker**: Containerization
 
 ## Prerequisites

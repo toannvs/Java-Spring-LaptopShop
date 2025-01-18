@@ -1,16 +1,64 @@
-# Java Spring Starter template
-Template này được sử dụng cho series Java Spring MVC (dự án laptopshop) của tác giả Hỏi Dân IT (Eric)
+# Spring Project
 
-## Về tác giả
-Mọi thông tin về Tác giả Hỏi Dân IT, các bạn có thể tìm kiếm tại đây:
+## Table of Contents
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Website chính thức: https://hoidanit.vn/
+## Introduction
+This project is a **Spring Framework-based application** designed to Laptop Shop.
 
-Youtube “Hỏi Dân IT” : https://www.youtube.com/@hoidanit
+## Technologies Used
+- **Java**: [17]
+- **Spring Boot**: [3.2.2]
+- **Spring Data JPA**: For database interactions
+- **Spring Security**: For authentication and authorization
+- **Maven**: Build tool
+- **MySQL**: Database (specify your DB here)
+- **Docker**: Containerization
 
-Tiktok “Hỏi Dân IT” :  https://www.tiktok.com/@hoidanit
+## Prerequisites
+Make sure you have the following installed:
+- **Java JDK** (version 17 or above): [Download here](https://www.oracle.com/java/technologies/javase-downloads.html)
+- **Maven**: [Download here](https://maven.apache.org/download.cgi)
+- **Database**: Install and configure your preferred database (MySQL).
+- (Optional) **Docker**: If deploying in a containerized environment.
 
-Fanpage “Hỏi Dân IT” : https://www.facebook.com/askITwithERIC/
+## Installation
 
-Udemy Hỏi Dân IT: https://www.udemy.com/user/eric-7039/
+### Clone the Repository
+```bash
+$ git clone https://github.com/toannvs/Java-Spring-LaptopShop.git
+$ cd Java-Spring-LaptopShop
+```
 
+### Build the Project
+```bash
+$ mvn clean install
+```
+
+### Run the Application
+```bash
+$ mvn spring-boot:run
+```
+
+## Usage
+Once the application is running, you can access it at:
+```
+http://localhost:8080
+```
+
+## Contributing
+We welcome contributions! To contribute:
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Submit a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
